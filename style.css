@@ -1,0 +1,63 @@
+/* class-> text-red{}*/
+/* id-> #id bilgisi{} */
+/*css selectors*/
+
+/* herhangi bir element style yapısını classlarken first child veya last child yazarsak yapının ilk ve son satırına değişiklik uygular.
+Nth child yazısını uygularsak bir yapının içindeki elemanların örn:li'nin 2. satırı içinde değişiklik uygular virgül koyarak örn:1,3,5 yazarak belirli liste elementlerine değişiklik verilir,nth child classının içinde parantez içinde odd yazarsak tek rakamlı liste öğelerini kapsayan class oluşturur even yazarsak ise çift rakamlı liste öğelerini kapsar 3n yazarsak bir liste yada devamlı yazı öğesinin her 3. kelimesini kapsar 2. yine aynı şekilde 2. kelimeleri kapsar. */
+.box {
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+margin-top:30px;
+margin-right: 10px;
+float: left;}
+
+.container{
+    margin:50px auto 0;
+    width: 1000px;
+  margin: 0 auto;
+}
+.card {
+    width: 20%;
+    float: left;
+    padding: 5%;
+    background-color: rgba(41, 17, 40, 0.766);
+    margin-right: 3%;
+    border-radius: 10px;
+}
+.clear{
+    clear: both;
+}
+.leftbar{
+    width: 200px;
+    height: 300px;
+    float: left;
+}
+.content{
+    width: 800px;
+    float: left;
+}
+.bgred{
+    background-color: red;
+}
+.bgyelow{
+    background-color: yellow;
+}
+.bgpurple{
+    background-color: purple;
+}
+.text-red{
+    color: red;
+}
+
+.fs-14{
+    font-size:14px;
+}
+
+.fs-20{
+    font-size:20px;
+}
+
+.fs-30{
+    font-size:30px;
+}
